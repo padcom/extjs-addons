@@ -70,7 +70,7 @@ Ext.ux.grid.AjaxRowExpander = Ext.extend(Ext.ux.grid.RowExpander, {
         if (this.mode == 'html') {
           return response.responseText;
         } else {
-          var data = { parent: options.record.data, detail: Ext.decode(response.responseText) };
+          var data = { parent: options.record.data, details: Ext.decode(response.responseText) };
           return this.tpl.apply(data);
         }
     }
