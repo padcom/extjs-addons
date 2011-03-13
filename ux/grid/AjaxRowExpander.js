@@ -6,12 +6,12 @@
  */
 
 /**
-* @class Ext.ux.grid.AjaxRowExpander
-* @extends Object 
-* Plugin (ptype = 'ajaxrowexpander') for displaying Ajax-loaded content in details of an expanded row
-* 
-* @ptype ajaxrowexpander
-*/
+ * @class Ext.ux.grid.AjaxRowExpander
+ * @extends Object 
+ * Plugin (ptype = 'ajaxrowexpander') for displaying Ajax-loaded content in details of an expanded row
+ * 
+ * @ptype ajaxrowexpander
+ */
 Ext.ux.grid.AjaxRowExpander = Ext.extend(Ext.ux.grid.RowExpander, {
     /**
      * @cfg {String} mode
